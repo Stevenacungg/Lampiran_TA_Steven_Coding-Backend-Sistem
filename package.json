@@ -1,0 +1,30 @@
+{
+  "name": "real-time-locating-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "db-migrate": "node ./scripts/migrate.js",
+    "register": "node ./scripts/register.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.7",
+    "jsonwebtoken": "^9.0.0",
+    "method-override": "^3.0.0",
+    "mqtt": "^4.3.7",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
